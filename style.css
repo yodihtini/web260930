@@ -1,0 +1,29 @@
+body {
+  font-size: 14px;
+}
+
+header, main, footer {
+  margin: 10px;
+  padding: 20px;
+  border: solid 5px #CCCCCC;
+}
+
+h1 {
+  /*font-size: 5em;*/
+  color: green;
+  background-color: lightpink;
+  border: solid 2px red;
+  text-align: center;
+  /*width: 90vw;*/
+  padding: 20px;
+  /* margin: 40px */
+}
+
+.content {
+  display: inline-block;
+  width: 28%; /*부모요소 너비의 30%로 설정*/
+  height: 100%;
+  border: solid 1px black;
+  margin: 10px;
+  padding: 5px;
+}
